@@ -4,97 +4,53 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Foundation | Welcome</title>
-<link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css">
+<link rel="stylesheet" href="main.css">
 </head>
 <body>
  
 <div class="top-bar">
-<div class="top-bar-left">
-<ul class="menu">
-<li class="menu-text">Yeti Agency</li>
-</ul>
-</div>
-<div class="top-bar-right">
-<ul class="menu">
-<li><a href="#">One</a></li>
-<li><a href="#">Two</a></li>
-<li><a href="#">Three</a></li>
-<li><a href="#">Four</a></li>
-</ul>
-</div>
+	<div class="top-bar-left">
+		<ul class="menu">
+			<li class="menu-text"><img src="Assets/rumpkernel_logo_75.png">Rump Kernels</li>
+		</ul>
+	</div>	
+	<div class="top-bar-right">
+		<ul class="menu">
+			<li><a href="https://github.com/rumpkernel/wiki/wiki/Tutorial:-Getting-started">Get Started</a></li>
+			<li><a href="https://github.com/rumpkernel/wiki/wiki/Repo">Repositories</a></li>
+			<li><a href="https://github.com/rumpkernel/wiki/wiki/Info:-Community">Community</a></li>
+			<li><a href="https://github.com/rumpkernel/wiki/wiki/Info:-FAQ">FAQ</a></li>
+			<li><a href="https://github.com/rumpkernel/wiki/wiki">Wiki</a></li>
+			<li><a href="https://twitter.com/rumpkernel"><img src="Assets/twitter.png"></a></li>
+			<li><a href="https://github.com/rumpkernel"><img src="Assets/github.png"></a></li>
+		</ul>
+	</div>
 </div>
  
-<div class="callout large primary">
-<div class="row column text-center">
-<h1>Our Blog</h1>
+<div class="expanded callout large subhead">
+	<div class="text-center">
+		<h3>Rump Kernels give you a plethora of real world compatible drivers you can use without the baggage that an operating system requires.</h3>
+		<a href="about.html" class="button">Get Started</a>
+     	<a href="#features" class="button">Documentation</a>
+	</div>
 </div>
+
+<div class="row text-center">
+	<div class="small-4 columns"><h3> Fast Boot</h3><p>Unikernels can boot extremely quickly, with boot times measured in milliseconds.</p></div>
+	<div class="small-4 columns"><h3> Small Footprint</h3><p>Unikernel images are often orders of magnitude smaller than traditional OS deployments.</p></div>
+	<div class="small-4 columns"><h3> Highly Optimized</h3><p>The unikernel compilation model enables whole-system optimisation across device drivers and application logic.</p></div>
 </div>
-<div class="row" id="content">
-<div class="medium-8 columns">
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
+
+<div class="callout large subhead">
+	<h3>"You can make an omelette without breaking the kitchen!"</h3>
+	<p>Rump kernels enable you to build the software stack you need without forcing you to reinvent the wheels. The key observation is that a software stack needs driver-like components which are conventionally tightly-knit into operating systems — even if you do not desire the limitations and infrastructure overhead of a given OS, you do need drivers.</p>
+
+	<p>We solve the problem by providing free, reusable, componentized, kernel quality drivers such as file systems, POSIX system calls, PCI device drivers and TCP/IP and SCSI protocol stacks. As a production-ready example, we offer the Rumprun unikernel, which clocks in at a few thousand lines of code plus rump kernel components, and supports POSIX'y software directly on both raw hardware and cloud hypervisors such as KVM and Xen. Examples of Rump kernels integrated into 3rd party platforms also exist.</p>
+
+	<p>The article Rise and Fall of the Operating System provides an extended high-level motivation for rump kernels. The book Design and Implementation of the Anykernel and Rump Kernels gives a technical description of the fundamental operating principles and terminology. Further information is available on the wiki or interactively via the community. You can also hire consultants for commercial support.</p>
 </div>
-</div>
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-<div class="blog-post">
-<h3>Awesome blog post title <small>3/6/2015</small></h3>
-<img class="thumbnail" src="http://placehold.it/850x350">
-<p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-<div class="callout">
-<ul class="menu simple">
-<li><a href="#">Author: Mike Mikers</a></li>
-<li><a href="#">Comments: 3</a></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="medium-3 columns" data-sticky-container>
-<div class="sticky" data-sticky data-anchor="content">
-<h4>Categories</h4>
-<ul>
-<li><a href="#">Skyler</a></li>
-<li><a href="#">Jesse</a></li>
-<li><a href="#">Mike</a></li>
-<li><a href="#">Holly</a></li>
-</ul>
-<h4>Authors</h4>
-<ul>
-<li><a href="#">Skyler</a></li>
-<li><a href="#">Jesse</a></li>
-<li><a href="#">Mike</a></li>
-<li><a href="#">Holly</a></li>
-</ul>
-</div>
-</div>
-</div>
+
 <div class="row column">
 <ul class="pagination" role="navigation" aria-label="Pagination">
 <li class="disabled">Previous</li>
@@ -108,8 +64,8 @@
 <li><a href="#" aria-label="Next page">Next</a></li>
 </ul>
 </div>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
 <script>
       $(document).foundation();
     </script>
