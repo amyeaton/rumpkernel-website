@@ -1,4 +1,42 @@
 .subhead {
 	background-color: grey;
-    color: white;
+  color: white;
+	border: none;
+}
+
+.about {
+	border: none;
+	border-top-style: dotted;
+	border-top-color: grey;
+}
+
+.features {
+	padding: 1rem;
+}
+
+
+.features, .about {
+	color: grey;
+}
+
+.show-for-small-only.top-bar h3 {
+	color: grey;
+	display: inline;
+	margin-left: 1rem;
+}
+
+.show-for-medium-only.top-bar h3 {
+	color: grey;
+	display: inline;
+	margin-left: 1.5rem;
+}
+
+.show-for-large.top-bar h3 {
+	color: grey;
+	display: inline;
+	margin-left: 1.5rem;
+}
+
+.show-for-large.top-bar .menu li {
+	height: 90px;
 }

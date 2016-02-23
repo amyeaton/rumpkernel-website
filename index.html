@@ -3,18 +3,42 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Foundation | Welcome</title>
+<title>Rump Kernels</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.css">
 <link rel="stylesheet" href="main.css">
 </head>
 <body>
- 
-<div class="top-bar">
+
+<div class="top-bar show-for-small-only">
+  <div class="top-bar-left">
+		<ul class="menu">
+			<li class="menu-text"><img src="Assets/rumpkernel_logo_32.png"><h3>Rump Kernels</h3></li>
+		</ul>
+	</div>
+	<div class="top-bar-right">
+		<ul class="menu">
+		</ul>
+	</div>
+</div>
+
+<div class="top-bar show-for-medium-only">
+  <div class="top-bar-left">
+		<ul class="menu">
+			<li class="menu-text"><img src="Assets/rumpkernel_logo_75.png"><h3>Rump Kernels</h3></li>
+		</ul>
+	</div>
+	<div class="top-bar-right">
+		<ul class="menu">
+		</ul>
+	</div>
+</div>
+
+<div class="top-bar show-for-large">
 	<div class="top-bar-left">
 		<ul class="menu">
-			<li class="menu-text"><img src="Assets/rumpkernel_logo_75.png">Rump Kernels</li>
+			<li class="menu-text"><img src="Assets/rumpkernel_logo_75.png"><h3>Rump Kernels</h3></li>
 		</ul>
-	</div>	
+	</div>
 	<div class="top-bar-right">
 		<ul class="menu">
 			<li><a href="https://github.com/rumpkernel/wiki/wiki/Tutorial:-Getting-started">Get Started</a></li>
@@ -27,7 +51,7 @@
 		</ul>
 	</div>
 </div>
- 
+
 <div class="expanded callout large subhead">
 	<div class="text-center">
 		<h3>Rump Kernels give you a plethora of real world compatible drivers you can use without the baggage that an operating system requires.</h3>
@@ -36,13 +60,13 @@
 	</div>
 </div>
 
-<div class="row text-center">
-	<div class="small-4 columns"><h3> Fast Boot</h3><p>Unikernels can boot extremely quickly, with boot times measured in milliseconds.</p></div>
-	<div class="small-4 columns"><h3> Small Footprint</h3><p>Unikernel images are often orders of magnitude smaller than traditional OS deployments.</p></div>
-	<div class="small-4 columns"><h3> Highly Optimized</h3><p>The unikernel compilation model enables whole-system optimisation across device drivers and application logic.</p></div>
+<div class="row text-center features">
+	<div class="small-12 medium-4 columns"><h3> Fast Boot</h3><p>Unikernels can boot extremely quickly, with boot times measured in milliseconds.</p></div>
+	<div class="small-12 medium-4 columns"><h3> Small Footprint</h3><p>Unikernel images are often orders of magnitude smaller than traditional OS deployments.</p></div>
+	<div class="small-12 medium-4 columns"><h3> Highly Optimized</h3><p>The unikernel compilation model enables whole-system optimisation across device drivers and application logic.</p></div>
 </div>
 
-<div class="callout large subhead">
+<div class="callout large about">
 	<h3>"You can make an omelette without breaking the kitchen!"</h3>
 	<p>Rump kernels enable you to build the software stack you need without forcing you to reinvent the wheels. The key observation is that a software stack needs driver-like components which are conventionally tightly-knit into operating systems — even if you do not desire the limitations and infrastructure overhead of a given OS, you do need drivers.</p>
 
@@ -51,19 +75,6 @@
 	<p>The article Rise and Fall of the Operating System provides an extended high-level motivation for rump kernels. The book Design and Implementation of the Anykernel and Rump Kernels gives a technical description of the fundamental operating principles and terminology. Further information is available on the wiki or interactively via the community. You can also hire consultants for commercial support.</p>
 </div>
 
-<div class="row column">
-<ul class="pagination" role="navigation" aria-label="Pagination">
-<li class="disabled">Previous</li>
-<li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-<li><a href="#" aria-label="Page 2">2</a></li>
-<li><a href="#" aria-label="Page 3">3</a></li>
-<li><a href="#" aria-label="Page 4">4</a></li>
-<li class="ellipsis"></li>
-<li><a href="#" aria-label="Page 12">12</a></li>
-<li><a href="#" aria-label="Page 13">13</a></li>
-<li><a href="#" aria-label="Next page">Next</a></li>
-</ul>
-</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.min.js"></script>
 <script>
