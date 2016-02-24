@@ -14,6 +14,17 @@
 	padding: 1rem;
 }
 
+.mobile-sub-menu {
+	background-color: black;
+	color: white;
+}
+
+.mobile-sub-menu button.menu-icon {
+	margin-left: 1.8rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 
 .features, .about {
 	color: grey;
