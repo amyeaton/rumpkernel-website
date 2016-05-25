@@ -4,12 +4,28 @@
 	border: none;
 }
 
+.callout.subhead{
+	margin:0;
+}
+
 .about {
 	border: none;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
+
+.button{
+	margin: .5rem;
+	}
 
 .features {
 	background-color: #e5f3fc;	
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.top-bar ul{
+	background:none;
 }
 
 .top-bar{
@@ -20,7 +36,6 @@
 	max-width: 1000px;
 	margin:auto;
 }
-	
 
 .mobile-sub-menu {
 	background-color: black;
@@ -32,7 +47,6 @@
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
-
 
 .features, .about {
 	color: grey;
