@@ -1,18 +1,26 @@
 .subhead {
 	background-color: grey;
-  color: white;
+  	color: white;
 	border: none;
 }
 
 .about {
 	border: none;
-	border-top-style: dotted;
-	border-top-color: grey;
 }
 
 .features {
-	padding: 1rem;
+	background-color: #e5f3fc;	
 }
+
+.top-bar{
+	background-image: url(Assets/gradient_header.png)
+}
+
+.size-wrapper{
+	max-width: 1000px;
+	margin:auto;
+}
+	
 
 .mobile-sub-menu {
 	background-color: black;
